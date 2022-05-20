@@ -33,8 +33,6 @@
       padding: 1em 0;
     }
 
-
-
     h1 {
       font-size: 70px;
     }
@@ -48,12 +46,12 @@
       font-size: 20px;
     }
 
-    a{
+    a {
       color: black;
       text-decoration: none;
     }
 
-    a:hover{
+    a:hover {
       color: aquamarine;
     }
 
@@ -67,14 +65,12 @@
 
 <body onload="startTime()">
 
-
   <td>
     <div>
       <h1 id='clock' ></h1>
       <h2 id='cal' ></h1>
     </div>
   </td>
-
 
   <nav>
     <ul>
@@ -135,7 +131,7 @@
     }
       
     function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      if (i < 10) {i = "0" + i};
       return i;
     }
 
